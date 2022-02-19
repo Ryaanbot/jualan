@@ -40,7 +40,24 @@ async def gcast(event):
     if xx:
         msg = xx
     elif event.is_reply:
-        msg = await event.get_reply_message()
+        msg = await event.get_reply_message("MEMBUKA JASA OPEN PROMOTE
+
+Paid promote/pp di @Cari_Teman_Asiik :
+- Reguler 10k
+12 jam = 1 posting
+- VIP 20k
+24 jam = 1 postingan
+
+Fitur Reguler ➪ Di sematkan/pin di group @Cari_Teman_Asiik 
+
+Fitur VIP ➪ Di sematkan/pin di group @Cari_Teman_Asiik(2 kali Pin dalam 24jam) , Mengirim Pesan Otomatis Di Group Setiap 15 menit Sesuai Produk atau Hal lainnya yang di Pasarkan
+
+Pembayaran via:
+- Dana
+- OVO
+
+Info selanjutnya bisa tanya ke:
+👉@paidpromotevip 👈")
     else:
         return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply**")
     kk = await edit_or_reply(event, "`Globally Broadcasting Msg...`")
