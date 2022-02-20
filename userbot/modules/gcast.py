@@ -40,7 +40,7 @@ async def gcast(event):
     if xx:
         msg = xx
     elif event.is_reply:
-        msg = await event.get_reply_message("mabar")
+        msg = await event.get_reply_message()
     else:
         return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply**")
     kk = await edit_or_reply(event, "`Globally Broadcasting Msg...`")
