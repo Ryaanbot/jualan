@@ -20,7 +20,15 @@ from userbot.events import man_cmd
 from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
-    "Hai kak, untuk info layanan kami silahkan chat admin di t.me/siapjadidotcom."
+    "JASA TAMBAH ANGGOTA GRUP\n"
+    "Telegram :\n"
+    "💥Real Aktif orang INDONESIA\n"
+    "💥Bisa request GRUP MANA YG MAU di ambil membernya\n"
+    "💥grup harus Publik\n"
+    "Contac Admin :\n"
+    "@jasa_promosi_iklan\n"
+    "TESTIMONI REAL :\n"
+    "https://t.me/jasasosmed99\n"
 )
 
 @bot.on(events.NewMessage(incoming=True))
